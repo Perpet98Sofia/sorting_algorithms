@@ -37,8 +37,8 @@ void swap_tail(listint_t **list, listint_t **head, listint_t **tail);
 void swap_head(listint_t **list, listint_t **tail, listint_t **head);
 int get_max(int *array, int size);
 void lsd_sort(int *array, size_t size, int exp, int *copy);
-
-
+void heap_sort(int *array, size_t size);
+void bitonic_sort(int *array, size_t size);
 
 /* algorithm functions */
 
